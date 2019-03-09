@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="miniFSCommand\include\command\AttCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\CdCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\CloseCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\CpCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\CrbCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\CreateCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\DeleteCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\ExitCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\FdCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\FmtCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\HelpCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\LrbCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\LsCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\MapCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\MkdirCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\MoveCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\NewCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\OpenCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\OptCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\ReadCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\RecCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\RmdirCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\SfsCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\TreeCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\UnsfsCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\command\WriteCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\io\mfs_Console.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\mfs_Commands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCommand\include\mfs_ResponsibilityChain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCore\include\mfs_algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCore\include\mfs_coresystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miniFSCore\include\mfs_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniFileSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="miniFSCommand\src\command\AttCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\CdCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\CloseCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\CpCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\CrbCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\CreateCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\DeleteCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\ExitCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\FdCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\FmtCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\HelpCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\LrbCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\LsCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\MapCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\MkdirCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\MoveCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\NewCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\OpenCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\OptCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\ReadCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\RecCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\RmdirCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\SfsCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\TreeCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\UnsfsCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\command\WriteCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\io\mfs_Console.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCommand\src\mfs_ResponsibilityChain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_bin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_cmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_diskio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_filecp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_fileop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_fileRW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_recur.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miniFSCore\src\mfs_cs_spaceop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
